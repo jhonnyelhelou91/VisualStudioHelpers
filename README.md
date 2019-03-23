@@ -22,20 +22,32 @@ Defines snippets and item templates.
 * Visual Studio
 
 
-### Item Templates
+## Item Templates
 
-#### Entity Type Configuration
+### Entity Type Configuration
 * Add new item in your solution
 * Replace configuration name with type name (i.e. Model)
 * Include namespace for Model
 * Configure Model
 
-### Snippets
+## Snippets
 
-####AutoMapper
-* You can create a mapping for your model using the keyword `map`
-* If audit is enabled, You can create a mapping for your audit using the keyword `auditmap`
+###AutoMapper
+<details>
+   <summary>Create a mapping for your model</summary>
+   <p>Keyword `map`</p>
+</details>
+<details>
+   <summary>If audit is enabled, Create a mapping for your audit model</summary>
+   <p>Keyword `auditmap`</p>
+</details>
 
-####DbSet
-* You can create a dbset for your model using the keyword `dbset`
-* If audit is enabled, You can create a dbset for your audit using the keyword `auditdbset`
+###DbSet
+<details>
+   <summary>Create a dbset for your model</summary>
+   <p>Keyword `dbset`</p>
+</details>
+<details>
+   <summary>If audit is enabled, Create a dbset for your audit model</summary>
+   <p>Keyword `auditdbset`</p>
+</details>
