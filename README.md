@@ -7,12 +7,12 @@ Defines snippets and item templates.
 * Copy the files <br />
 `git clone 'https://github.com/jhonnyelhelou91/VisualStudioHelper.git' 'C:\git\VisualStudio'`
 
-###Include Item Templates
+### Include Item Templates
 * Copy Zipped Item Templates to your visual studio directory<br />
 `%USERPROFILE%\Documents\Visual Studio 2017\Templates\Item Templates\Visual C#\`
 * Restart Visual Studio <br />
 
-###Include Snippets
+### Include Snippets
 * Open Tools > Code Snippets Manager or `Ctrl + K, Ctrl + B`
 * Select C# from the dropdown
 * Add directory `C:\git\Visual Studio\Snippets`
@@ -22,17 +22,17 @@ Defines snippets and item templates.
 * Visual Studio
 
 
-## Item Templates
+### Item Templates
 
-### Entity Type Configuration
+#### Entity Type Configuration
 * Add new item in your solution
 * Replace configuration name with type name (i.e. Model)
 * Include namespace for Model
 * Configure Model
 
-## Snippets
+### Snippets
 
-###AutoMapper
+#### AutoMapper
 <details>
    <summary>Create a mapping for your model</summary>
    <p>Keyword `map`</p>
@@ -42,7 +42,7 @@ Defines snippets and item templates.
    <p>Keyword `auditmap`</p>
 </details>
 
-###DbSet
+#### DbSet
 <details>
    <summary>Create a dbset for your model</summary>
    <p>Keyword `dbset`</p>
